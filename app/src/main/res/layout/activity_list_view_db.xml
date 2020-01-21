@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/LorSeaSerpent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ListViewDB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/rs"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/ColHarvardCrimson"
+            android:onClick="search_dbRS"
+            android:text="RS"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/polisi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/LorPersian"
+            android:onClick="search_dbPolisi"
+            android:text="Polisi"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/damkar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/ColHarvardCrimson"
+            android:onClick="search_dbDamkar"
+            android:text="Damkar"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:hint="Cari "
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorLink="@color/colorPrimary"></EditText>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBaseline="@+id/et"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:drawable/ic_search_category_default"
+        android:onClick="search_db" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et"
+        android:layout_marginTop="10dp"></ListView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="DAFTAR LIST "
+        android:textColor="@color/ColHarvardCrimson"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

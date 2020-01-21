@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue3"
+    android:orientation="vertical"
+    tools:context=".navmap">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="BANTUAN\nTERDEKAT"
+        android:textAlignment="center"
+        android:textColor="@color/ColAntiFlashWhite"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/tabnomor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/polisi"
+            android:textAlignment="center"
+            android:textSize="8sp" />
+
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/rumahsakit"
+            android:textAlignment="center"
+            android:textSize="8sp" />
+
+        <ImageButton
+            android:id="@+id/bt3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/damkar"
+            android:textAlignment="center"
+            android:textSize="8sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+
+        <ImageButton
+            android:id="@+id/bt4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="5dp"
+            android:background="@color/LorDeepSaffron"
+            android:textAlignment="center"
+            android:textSize="8sp"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</LinearLayout>

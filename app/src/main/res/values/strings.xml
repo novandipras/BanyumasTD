@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TombolDarurat</string>
+    <string name="isi_sms">
+        TOLONG!!!
+        Saya dalam keadaan DARURAT dan butuh bantuan secepatnya di
+    </string>
+    <string name="sms_novan">6289620328921</string>
+</resources>

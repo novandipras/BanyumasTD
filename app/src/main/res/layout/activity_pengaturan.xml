@@ -1,0 +1,347 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/LorBlueNavi"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PENGATURAN"
+        android:textAlignment="center"
+        android:textColor="@color/LorDeepSaffron"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="NAMA SESUAI KTP/SIM/PASS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:hint="Nama Lengkap"
+            android:inputType="textCapWords|textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="EMAIL"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Nomor Darurat 1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etno1nama"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:hint="Nama"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/etno1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telpon"
+            android:inputType="phone"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btimport1"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="TAMBAHKAN KONTAK"
+            android:textSize="6sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Nomor Darurat 2"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etno2nama"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:hint="Nama"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/etno2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telpon"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btimport2"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="TAMBAHKAN KONTAK"
+            android:textSize="6sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Nomor Darurat 3"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etno3nama"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:hint="Nama"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/etno3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telpon"
+            android:inputType="phone"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btimport3"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="TAMBAHKAN KONTAK"
+            android:textSize="6sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="Nomor Darurat 4"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <EditText
+            android:id="@+id/etno4nama"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:hint="Nama"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="8sp" />
+
+        <EditText
+            android:id="@+id/etno4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Nomor Telpon"
+            android:inputType="phone"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/ColAntiFlashWhite"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btimport4"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="TAMBAHKAN KONTAK"
+            android:textSize="6sp" />
+
+    </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+    <Switch
+        android:id="@+id/switchwa"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp "
+        android:textColor="@color/ColAntiFlashWhite"
+        android:textSize="10sp"
+         />
+
+    <EditText
+        android:id="@+id/etwa"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/ColAntiFlashWhite"
+        android:textSize="8sp"
+        android:visibility="invisible"
+        />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btcancel"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Cancel"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btclear"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Clear"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btsimpan"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="SIMPAN"
+            android:textSize="10sp" />
+
+        <Button
+            android:id="@+id/btTentang"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:onClick="openTentang"
+            android:text="Tentang"
+            android:textSize="10sp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

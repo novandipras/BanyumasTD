@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="ColSmokyBlack">#0C120C</color>
+    <color name="ColHarvardCrimson">#c20114</color>
+    <color name="ColNickel">#6D7275</color>
+    <color name="ColLightGrey">#c7d6d5</color>
+    <color name="ColAntiFlashWhite">#ECEBF3</color>
+
+    <color name="LorBlueNavi">#1c77c3</color>
+    <color name="LorMaxBlue">#39a9db</color>
+    <color name="LorSeaSerpent">#40bcd8</color>
+    <color name="LorDeepSaffron">#f39237</color>
+    <color name="LorPersian">#d63230</color>
+
+    <color name="Blue1">#4BFFFC</color>
+    <color name="Blue2">#00ffff</color>
+    <color name="Blue3">#399ac6</color>
+    <color name="Blue4">#221CED</color>
+    <color name="Blue5">#02019c</color>
+</resources>
